@@ -4,6 +4,12 @@
 #ifndef _ALGORITHM_CALCULATOR_TOKENIZER_H_
 #define _ALGORITHM_CALCULATOR_TOKENIZER_H_
 
+// Valid characters of token data.
+struct TokenValidChar {
+  char *number;
+  char *op;
+};
+
 // Token types.
 enum TokenType {
   TYPE_NUMBER,
