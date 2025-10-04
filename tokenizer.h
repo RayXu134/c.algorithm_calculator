@@ -49,4 +49,11 @@ void TokenSetDataOperator(struct Token *token, char op);
 // @return The data type of the token.
 enum TokenType TokenGetDataType(struct Token *token);
 
+// @brief Get one token from the string.
+// This function will modify the pointer.
+//
+// @param src The string to get the token from.
+// @return The token got from the string.
+struct Token TokenTokenize(char *src);
+
 #endif  // _ALGORITHM_CALCULATOR_TOKENIZER_H_
