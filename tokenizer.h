@@ -8,6 +8,7 @@
 enum TokenType {
   TYPE_NUMBER,
   TYPE_OPERATOR,
+  UNSET,
   END
 };
 
