@@ -14,7 +14,7 @@ enum TokenType {
 // Token data.
 union TokenData {
   double number;
-  char operator;
+  char op;  // Operator.
 };
 
 // Token structure.
